@@ -792,7 +792,7 @@
                         <div class="e-con-inner">
                             <div class="elementor-element elementor-element-0e5a702 elementor-widget elementor-widget-html" data-id="0e5a702" data-element_type="widget" data-widget_type="html.default">
                                 <div class="elementor-widget-container">
-                                    <div class="gerador my-3">
+                                    <div  class="gerador my-3">
                                         <img decoding="async" class="mainimg" src="images/astiger_criptografado.webp" alt="">
                                         <ul>
                                             <li>
@@ -966,8 +966,8 @@
                                             }
     
                                             .gerador ul li img {
-                                                width: 48px !important;
-                                                height: 48px !important;
+                                                width: 40px !important;
+                                                height: 40px !important;
                                                 margin: 8px !important
                                             }
     
@@ -989,7 +989,7 @@
                                             }
     
                                             .gerador ul {
-                                                top: 35%
+                                                top: 37.5%
                                             }
     
                                             .animated-text span {
@@ -1004,21 +1004,35 @@
                                         @media (min-width: 321px) and (max-width: 500px) {
                                             .gerador ul li {
                                                 height: 55px !important;
-                                                margin: 15px auto
+                                                margin-top: -10px ;
+                                                height: 55px !important;
+                                                margin-top: -10px ;
+                                                display: flex;
+                                                align-items: center;
                                             }
     
                                             .gerador ul {
-                                                top: 38%
+                                                display: flex;
+                                                height: 43%;
+                                                gap: -16px;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                margin-top: 8%
                                             }
     
+                                            .gerador ul li img {
+                                                width: 40px !important;
+                                                height: 40px !important;
+                                                margin: 8px !important
+                                            }
                                             .gerador .btn-gerar {
                                                 padding: 0;
-                                                font-size: 13px !important;
+                                                font-size: 14px !important;
                                                 margin-bottom: 2%
                                             }
     
                                             .animated-text span {
-                                                font-size: .7rem
+                                                font-size: .6rem
                                             }
     
                                             .animated-text {
@@ -1026,11 +1040,42 @@
                                             }
     
                                             .footer {
-                                                gap: 1.3vh
+                                                gap: 1vh
                                             }
                                         }
     
                                         @media(max-width: 320px) {
+                                            .footer {
+                                                gap: 1vh;
+                                                bottom: 1.5%;
+                                            }
+    
+                                            .gerador .btn-gerar {
+                                                height: 30px !important;
+                                            }
+    
+                                            .gerador ul {
+                                                top: 26%;
+                                            }
+                                        }
+
+
+                                        @media(max-width: 400px) {
+                                            .gerador ul li {
+                                                height: 55px !important;
+                                                margin-top: -10px ;
+                                                display: flex;
+                                                align-items: center;
+                                            }
+    
+                                            .gerador ul {
+                                                display: flex;
+                                                height: 43%;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                margin-top: 28%
+                                            }
+
                                             .footer {
                                                 gap: 1vh;
                                                 bottom: 1.5%;
